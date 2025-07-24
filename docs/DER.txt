@@ -1,0 +1,38 @@
+Entidades e Relacionamentos:
+
+1. USUARIOS
+- id (PK)
+- login
+- senha
+
+2. CLIENTES
+- id (PK)
+- nome
+- email
+- telefone
+
+3. PRODUTOS
+- id (PK)
+- nome
+- preco
+- estoque
+
+4. VENDAS
+- id (PK)
+- cliente_id (FK → CLIENTES.id)
+- usuario_id (FK → USUARIOS.id)
+- data
+- total
+
+5. ITENS_VENDA
+- id (PK)
+- venda_id (FK → VENDAS.id)
+- produto_id (FK → PRODUTOS.id)
+- quantidade
+- preco_unitario
+
+Relacionamentos:
+- Um USUARIO pode registrar várias VENDAS.
+- Um CLIENTE pode estar relacionado a várias VENDAS.
+- Uma VENDA pode ter vários ITENS_VENDA.
+- Cada ITEM_VENDA está associado a um PRODUTO.

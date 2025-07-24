@@ -1,0 +1,14 @@
+REQUISITOS FUNCIONAIS:
+1. O sistema deve permitir o login de usuários cadastrados.
+2. O sistema deve permitir o cadastro de clientes com nome, email e telefone.
+3. O sistema deve permitir o cadastro de produtos com nome, preço e estoque.
+4. O sistema deve permitir registrar uma venda vinculando cliente, usuário e itens vendidos.
+5. O sistema deve atualizar automaticamente o estoque dos produtos após cada venda.
+6. O sistema deve exibir mensagens de sucesso ou erro conforme ações do usuário.
+7. O sistema deve apresentar um menu principal com navegação entre módulos.
+
+REQUISITOS NÃO FUNCIONAIS:
+1. O sistema deve ser implementado em Python utilizando o padrão MVC.
+2. O sistema deve utilizar a biblioteca Tkinter para a interface gráfica.
+3. O banco de dados deve ser implementado em MySQL.
+4. As configurações de conexão com o banco devem ser armazenadas em variáveis de ambiente (.env).

@@ -1,0 +1,24 @@
+ALGORITMO DO SISTEMA DE LOJA
+
+1. Ao iniciar o programa:
+    - A tela de login é exibida.
+    - O usuário insere login e senha.
+    - Se as credenciais estiverem corretas, o menu principal é aberto.
+
+2. Menu principal:
+    - Possui botões para acessar as telas de Clientes, Produtos e Vendas.
+
+3. Tela de Clientes:
+    - O usuário pode cadastrar novos clientes informando nome, email e telefone.
+
+4. Tela de Produtos:
+    - O usuário pode cadastrar produtos informando nome, preço e estoque.
+
+5. Tela de Vendas:
+    - O usuário informa ID do cliente e ID do usuário.
+    - Adiciona os itens da venda com ID do produto, quantidade e preço unitário.
+    - O sistema calcula o total, registra a venda e atualiza o estoque dos produtos.
+
+6. Após concluir qualquer operação:
+    - O sistema exibe uma mensagem de sucesso.
+    - A janela atual é fechada e o usuário pode continuar navegando no menu principal.
